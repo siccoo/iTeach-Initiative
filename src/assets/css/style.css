@@ -1,5 +1,145 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*Template Name: iTeach Initiative
+Author: Chilaka Michael Obinna, Desmond Obisi, Sam Kaduna,
+Author URL: github.com/siccoo
+Version: 1.0.0
+Website: 
+*/
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
+   @font-face {
+	font-family: 'Circular-Black';
+	src: url('../fonts/circular-std-book/CircularStd-Black.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Bold';
+	src: url('../fonts/circular-std-book/CircularStd-Bold.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Book-Italics';
+	src: url('../fonts/circular-std-book/CircularStd-BookItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Book';
+	src: url('../fonts/circular-std-book/CircularStd-Book.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Black-Italics';
+	src: url('../fonts/circular-std-book/CircularStd-BlackItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Bold-Italics';
+	src: url('../fonts/circular-std-book/CircularStd-BoldItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Medium';
+	src: url('../fonts/circular-std-book/CircularStd-Medium.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Medium-Italics';
+	src: url('../fonts/circular-std-book/CircularStd-MediumItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0 !important;
+}
+
+body {
+	font-family: 'Circular-Black';
+	-webkit-font-smoothing: antialiased;
+	margin: 0 !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   02. HEADER & NAVIGATION
+   ========================================================================== 
+*/
+
+/*------------------------------------------*/
+/*	 Navigation Bar
+/*------------------------------------------*/
+
+.navbar-default {
+    background-color: #141c3d;
+    border-radius: none !important;
+}
+
+.navbar .navbar-nav .nav-menu {
+    color: #ffffff;
+    margin-right: 50px;
+}
+
+.navbar .navbar-nav .nav-menu:hover, .navbar .navbar-nav .nav-menu:active, .navbar .navbar-nav .nav-menu:focus {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-contact {
+    background-color:#5dc41d;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.navbar .navbar-nav .nav-contact:hover, .navbar .navbar-nav .nav-contact:active, .navbar .navbar-nav .nav-contact:focus {
+    background-color: #5dc41d;
+    color: #ffffff;
+} 
+
+/*------------------------------------------*/
+/*	 Responsive Toggle Menu Button
+/*------------------------------------------*/
+
+.navbar-toggle {
+    position: relative;
+	background-color: #141c3d;
+	color: #ffffff;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+.navbar-toggle:hover {
+    background-color: #141c3d !important;
+    color: #ffffff;
+}
+
+/*------------------------------------------*/
+/*	 Logo Image
+/*------------------------------------------*/
+
+.home-logo {
+    width: 130px;
 }
